@@ -24,14 +24,14 @@ class User {
     }
   
     static movies = [
-      new Movie("Inception", "Sci-Fi", 5),
-      new Movie("The Shawshank Redemption", "Drama", 3),
-      new Movie("Dungeons and Dragons Honor Among Thieves (2023)", "adventure", 4)
-      new Movie("Mr and Mrs smith 2005", "Action", 3)
-      
-    ];
+        new Movie("Mr and Mrs Smith 2005", "Action", 6),
+        new Movie("Inception", "Sci-Fi", 5),
+        new Movie("The Shawshank Redemption", "Drama", 3),
+        new Movie("Dungeons and Dragons: Honor Among Thieves (2023)", "Adventure", 4)
+      ];
+      ;
   
-    static lateFee = 2.5;
+    static lateFee = 2.5;gi
     static rentalPeriodDays = 7;
   
     rent(user, movieTitle) {
